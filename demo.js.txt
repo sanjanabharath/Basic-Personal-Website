@@ -1,0 +1,24 @@
+let value=0;
+
+function increment(){
+    value++;
+    document.getElementById('count').innerHTML=value;
+}
+
+function decrement(){
+    if(value==0){
+        value=0;
+    }
+    else{
+        value--;
+    }
+    document.getElementById('count').innerHTML=value;
+}
+
+function save(){
+    document.getElementById('display').innerHTML=value;
+}
+
+function reset(){
+    document.getElementById('count').innerHTML=value;
+}

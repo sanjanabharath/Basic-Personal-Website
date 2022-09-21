@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#increment-btn{
+    background-color: green;
+}
+#decrement-btn{
+    background-color: red;
+}
+#reset-btn{
+    background-color: yellow;
+}
+#save-btn{
+    background-color: orange;
+}
